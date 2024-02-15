@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    margin-top: 100px;
+}
+li {
+    list-style-type:  none;
+}
+.container_grid {
+    font-family: "Inter", sans-serif;
+    width: 938px;
+    margin: 0 auto;
+}
+.months {
+    display: flex;
+    justify-content: center;
+}
+.months div {
+    width: 847.03px;
+    display: flex;
+    justify-content: space-between;
+}
+.months div p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #959494;
+}
+.days_grid {
+    display: flex;
+}
+.days{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 81px;
+    width: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #959494;
+}
+.grid {
+    margin-top: 5px;
+    width: 700px;
+    display: grid;
+    grid-gap:2px;
+    grid-auto-rows: 15px;
+    grid-template-columns: repeat(53,15px);
+}
+.item{
+    background-color: #EDEDED;
+    cursor: pointer;
+}
+.item:hover {
+    border: 1px solid;
+}   
+.window {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
